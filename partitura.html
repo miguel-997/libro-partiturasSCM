@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="manifest" href="/manifest.json">
+<meta charset="UTF-8">
+<title>Partitura</title>
+<script src="https://cdn.jsdelivr.net/npm/opensheetmusicdisplay@1.8.6/build/opensheetmusicdisplay.min.js"></script>
+<style>
+body { margin:0; font-family: system-ui, sans-serif; }
+#controls { position: sticky; top:0; background:#222; padding:10px; display:flex; gap:10px; justify-content:center; }
+button { padding:10px 14px; font-size:16px; border:none; border-radius:6px; cursor:pointer; }
+button:hover:not(:disabled) { opacity:0.85; }
+.primary { background:#4caf50; color:white; }
+.secondary { background:#2196f3; color:white; }
+.danger { background:#f44336; color:white; }
+button:disabled { opacity:0.4; cursor:not-allowed; }
+#score { padding:16px; background:white; margin-top:16px; }
+a#back { display:block; margin:10px; text-decoration:none; color:#2196f3; }
+</style>
+</head>
+<body>
+
+<a id="back" href="index.html">← Volver al índice</a>
+
+<div id="controls">
+  <button id="btnDown" class="secondary" disabled>−½ tono</button>
+  <button id="btnUp" class="secondary" disabled>+½ tono</button>
+  <button id="btnReset" class="danger" disabled>Tono original</button>
+  <button id="btnPlay" class="primary" disabled>▶ MIDI</button>
+</div>
+
+<div id="score"></div>
+
+<script>
+let osmd;
+let currentStep = 0;
+
+// Leer parámetros de URL
+const params = new URLSearchParams(window.location.search);
+const slug = params.get("slug");
+const maxUp = parseInt(params.get("maxUp") || "3");
+const maxDown = parseInt(params.get("maxDown") || "5");
+
+// Archivos originales y carpetas
+const original = `scores/${slug}.musicxml`;
+const stepsUp = [];
+for(let i=1; i<=maxUp; i++) stepsUp.push(`scores/${slug}/${i}.musicxml`);
+const stepsDown = [];
+for(let i=1; i<=maxDown; i++) stepsDown.push(`scores/${slug}/-${i}.musicxml`);
+
+
+async function loadScore(path) {
+  if (!osmd) return;
+  document.querySelectorAll("button").forEach(b => b.disabled = true);
+  await osmd.load(path);
+  await osmd.render();
+  document.querySelectorAll("button").forEach(b => b.disabled = false);
+}
+
+function subir() {
+  if (currentStep < maxUp) {
+    currentStep++;
+    let path = currentStep > 0 ? stepsUp[currentStep-1] : currentStep < 0 ? stepsDown[-currentStep-1] : original;
+    loadScore(path);
+  }
+}
+
+function bajar() {
+  if (currentStep > -maxDown) {
+    currentStep--;
+    let path = currentStep < 0 ? stepsDown[-currentStep-1] : currentStep > 0 ? stepsUp[currentStep-1] : original;
+    loadScore(path);
+  }
+}
+
+function resetear() {
+  currentStep = 0;
+  loadScore(original);
+}
+
+async function togglePlay() {
+  if (!osmd || !osmd.PlaybackManager) return;
+  if (!osmd.PlaybackManager.isPlaying) await osmd.PlaybackManager.play();
+  else osmd.PlaybackManager.pause();
+}
+
+async function iniciar() {
+  osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay("score",{ autoResize:true, drawTitle:true, backend:"svg" });
+  await loadScore(original);
+  osmd.enablePlayback = true;
+
+  document.getElementById("btnDown").onclick = bajar;
+  document.getElementById("btnUp").onclick = subir;
+  document.getElementById("btnReset").onclick = resetear;
+  document.getElementById("btnPlay").onclick = togglePlay;
+
+  document.querySelectorAll("button").forEach(b => b.disabled = false);
+}
+
+window.addEventListener("load", iniciar);
+</script>
+
+</body>
+</html>

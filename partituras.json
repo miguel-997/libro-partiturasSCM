@@ -1,0 +1,15 @@
+[
+    {
+      "name": "Himno virgen de Fátima",
+      "slug": "fatima",
+      "maxUp": 3,
+      "maxDown": 5
+    },
+    {
+      "name": "Tomad virgen pura",
+      "slug": "virgenpura",
+      "maxUp": 3,
+      "maxDown": 5
+    }
+  ]
+  

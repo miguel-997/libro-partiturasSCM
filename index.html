@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="manifest" href="/manifest.json">
+<meta charset="UTF-8">
+<title>Libro de Partituras</title>
+<style>
+body { font-family: system-ui, sans-serif; padding:20px; }
+h1 { text-align:center; }
+ul { list-style:none; padding:0; }
+li { margin:8px 0; }
+a { text-decoration:none; color:#2196f3; font-size:18px; }
+a:hover { text-decoration:underline; }
+</style>
+</head>
+<body>
+<h1>Libro de Partituras</h1>
+<ul id="lista"></ul>
+
+<script>
+async function cargarIndice() {
+  const res = await fetch("partituras.json");
+  const data = await res.json();
+  const lista = document.getElementById("lista");
+
+  data.forEach(part => {
+    const li = document.createElement("li");
+    li.innerHTML = `<a href="partitura.html?slug=${encodeURIComponent(part.slug)}&maxUp=${part.maxUp}&maxDown=${part.maxDown}">${part.name}</a>`;
+    lista.appendChild(li);
+  });
+}
+
+cargarIndice();
+</script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('SW registrado', reg))
+        .catch(err => console.error('Error registrando SW:', err));
+    });
+  }
+  </script>
+  
+</body>
+</html>
