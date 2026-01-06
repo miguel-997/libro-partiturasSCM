@@ -1,4 +1,4 @@
-const CACHE_NAME = "partitura-pwa-v11";
+const CACHE_NAME = "partitura-pwa-v12";
 
 const STATIC_FILES = [
   "/",
@@ -62,4 +62,5 @@ self.addEventListener("fetch", event => {
     caches.match(event.request).then(resp => resp || fetch(event.request))
   );
 });
+
 
