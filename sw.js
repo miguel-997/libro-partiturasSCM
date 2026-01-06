@@ -14,7 +14,7 @@ const STATIC_FILES = [
 
 // Obtener TODAS las partituras desde partituras.json
 async function getAllScores() {
-  const res = await fetch("/partituras.json");
+  const res = await fetch("partituras.json");
   const list = await res.json();
   const files = [];
 
@@ -62,3 +62,4 @@ self.addEventListener("fetch", event => {
     caches.match(event.request).then(resp => resp || fetch(event.request))
   );
 });
+
