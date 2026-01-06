@@ -1,4 +1,4 @@
-const CACHE_NAME = "partitura-pwa-v10";
+const CACHE_NAME = "partitura-pwa-v11";
 
 const STATIC_FILES = [
   "/",
@@ -7,8 +7,8 @@ const STATIC_FILES = [
   "/manifest.json",
   "/partituras.json",
   "/favicon.ico",
-  "/icons/icon-192.png",
-  "/icons/icon-512.png",
+  "icons/icon-192.png",
+  "icons/icon-512.png",
   "https://cdn.jsdelivr.net/npm/opensheetmusicdisplay@1.8.6/build/opensheetmusicdisplay.min.js"
 ];
 
