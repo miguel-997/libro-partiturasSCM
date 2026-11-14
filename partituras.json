@@ -1,15 +1,2714 @@
 [
-    {
-      "name": "Himno virgen de Fátima",
-      "slug": "fatima",
-      "maxUp": 3,
-      "maxDown": 5
-    },
-    {
-      "name": "Tomad virgen pura",
-      "slug": "virgenpura",
-      "maxUp": 3,
-      "maxDown": 5
-    }
-  ]
+  {
+    "name": "Tomad virgen pura",
+    "slug": "1 virgenpura",
+    "categoria": "ordinario",
+    "momento": "salida",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Saludo inicial LH",
+    "slug": "saludoLH",
+    "categoria": "LH",
+    "momento": ".",
+    "maxUp": 0,
+    "maxDown": 0,
+    "estrofa": 0
+  },
+  {
+    "name": "Attende Domine",
+    "slug": "CUAR-_Attende_Domine",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "A ti levanto mis ojos",
+    "slug": "CUAR-_A_ti_levanto_mis",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Caminaré en presencia del Señor",
+    "slug": "CUAR-_caminare-en-presencia-del",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Dios es fiel",
+    "slug": "CUAR-_Dios_es_fiel",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Domine Deus",
+    "slug": "CUAR-_Domine_Deus",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Grande es tu ternura",
+    "slug": "CUAR-_Grande_es_tu_ternura",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Hacia ti, morada santa",
+    "slug": "CUAR-_hacia-ti-morada-santa",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Haz brillar sobre nosotros",
+    "slug": "CUAR-_haz-brillar-sobre-nosotros",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Los hombros traigo cargados",
+    "slug": "CUAR-_Los_hombros_traigo_cargados",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Mi alma espera en el Señor",
+    "slug": "Cuar-_mi-alma-espera-en",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Nos has llamado al desierto",
+    "slug": "CUAR-_nos-has-llamado-al-desierto",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Nueva creación",
+    "slug": "CUAR-_nueva-creacion-cesareo-gabarain",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Oh rostro ensangrentado",
+    "slug": "CUAR-_OH_ROSTRO_ENSANGRENTADO",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Parce Domine",
+    "slug": "CUAR-_parce-domine",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Perdona a tu pueblo",
+    "slug": "Cuar-_perdona-a-tu-pueblo",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Perdónanos nuestras culpas",
+    "slug": "Cuar-_perdonanos-nuestras-culpas-joaquin",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Si me levantare",
+    "slug": "Cuar-_si-me-levantare-de",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Tu noche será luz",
+    "slug": "CUAR-_Tu_noche_será_luz",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ved la cruz de salvación",
+    "slug": "CUAR-_ved-la-cruz-de",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Me invocará y lo escucharé",
+    "slug": "CUAR_-_Me_invocará_y",
+    "categoria": "cuaresma",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ave Verum",
+    "slug": "DIV-Ave_Verum",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Adoro te devote",
+    "slug": "Div-_adoro-te-devote",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Al paraíso",
+    "slug": "DIV-_Al_paraíso",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cantemos al amor de los amores",
+    "slug": "Div-_cantemos-al-amor-de",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Christus vincit",
+    "slug": "DIV-_christus-vincit_(partir_compases)",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "De rodillas, Señor, ante ti",
+    "slug": "DIV-_de-rodillas-senor-ante",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Envía tu Espíritu (Madurga)",
+    "slug": "Div-_Envia-tu-espiritu_madurga",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Himno a San José",
+    "slug": "DIV-_himno-a-san-jose",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Jesu dulcis memoria",
+    "slug": "DIV-_jesu_dulcis_memoria",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "La alianza nueva",
+    "slug": "DIV-_la-alianza-nueva-de",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "La muerte no es el final",
+    "slug": "DIV-_la-muerte-no-es",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Laudate Dominum (Taizé)",
+    "slug": "DIV-_laudate-dominum-taize",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Laudate omnes gentes (Taizé)",
+    "slug": "DIV-_laudate-omnes-gentes-taize",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Letanía de los santos",
+    "slug": "DIV-_letania-de-los-santos",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Letanías (ordenaciones)",
+    "slug": "DIV-_Letanías_ordenaciones_(falta_maquetar",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Oh Señor, envía tu Espíritu",
+    "slug": "Div-_oh-señor-envia",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Pange lingua",
+    "slug": "DIV-_Pange_lingua",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Pange lingua II",
+    "slug": "DIV-_Pange_lingua2",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Que la lengua humana",
+    "slug": "DIV-_Que_la_lengua_humana",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Veni Creator Spiritus",
+    "slug": "DIV-_Veni_Creator_Spiritus",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Veni Sancte Spiritus",
+    "slug": "DIV-_Veni_Sancte_Spiritus",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ven, oh Santo Espíritu",
+    "slug": "DIV-_Ven_oh_Santo_Espíritu",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Victimae paschali",
+    "slug": "DIV-_Victimae_paschali",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Este es el tiempo",
+    "slug": "LH-_Este_es_el_tiempo",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Libra mis ojos",
+    "slug": "LH10-_Libra_mis_ojos_(mect)",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "¡Oh, Cruz fiel!",
+    "slug": "LH10-_¡Oh,_Cruz_fiel!_retocado",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ofrezcan los cristianos",
+    "slug": "LH11-_Ofrezcan_los_cristianos_(meter",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cristo ha resucitado",
+    "slug": "LH12-_Cristo_ha_resucitado",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cristo alegría del mundo",
+    "slug": "LH13-_Cristo_alegría_del_mundo",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Porque anochece ya",
+    "slug": "LH14-_Porque_anohece_ya",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Pascua sagrada",
+    "slug": "LH15-_Pascua_sagrada_(mect)",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "¿Qué ves en la noche?",
+    "slug": "LH16-_Qué_ves_en_la",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Benedictus I",
+    "slug": "LH17-_Benedictus_I",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Benedictus II (latín)",
+    "slug": "LH18-Benedictus_II_(latín)",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Magnificat (Elizalde)",
+    "slug": "LH19-_Magnificat_Elizalde",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Magnificat II (latín)",
+    "slug": "LH21-Magnificat_II_(latín)",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Pater Noster",
+    "slug": "LH22-Pater_Noster",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Padre Nuestro",
+    "slug": "LH23-Padre_Nuestro",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Padre Nuestro II",
+    "slug": "LH24-Padre_Nuestro_II",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Hora de la tarde",
+    "slug": "LH2_-_hora_de_la",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Preparemos los caminos",
+    "slug": "LH3_-_Preparemos_los_caminos",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ven, Señor, no tardes",
+    "slug": "LH4_-_Ven,_Señor,_no",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Jesucristo, Palabra del Padre",
+    "slug": "LH5_-_Jesucristo,_Palabra_del",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Llorando los pecados",
+    "slug": "LH6_-_Llorando_los_pecados",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "En tierra extraña",
+    "slug": "LH7_-_En_tierra_extraña",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Éste es el",
+    "slug": "LH8_-_Éste_es_el",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Te damos gracias",
+    "slug": "LH9_-_Te_damos_gracias",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "El Señor hizo en mí",
+    "slug": "MARIA-El_Señor_hizo_en_mí",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Tomad, Virgen pura",
+    "slug": "MARIA-Tomad_Virgen_pura",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ave clemens",
+    "slug": "MARIA-_ave-clemens-blasius-verghetti",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ave Lourdes",
+    "slug": "MARIA-_Ave_Lourdes",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Bajo tu amparo",
+    "slug": "MARIA-_Bajo_tu_amparo",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Coronada de estrellas",
+    "slug": "MARIA-_Coronada_de_estrellas",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Coronada de estrellas (v2 - estrofas 1voz)",
+    "slug": "MARIA-_Coronada_de_estrellas_(1",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Eres Madre dolorosa",
+    "slug": "MARIA-_eres-madre-dolorosa-vaquero",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Estrella y camino",
+    "slug": "MARIA-_estrella-y-camino-cesareo",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "La virgen sueña caminos",
+    "slug": "MARIA-_La_virgen_sueña_caminos",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Los cielos y la",
+    "slug": "MARIA-_los-cielos-y-la",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Magníficat",
+    "slug": "MARIA-_Magníficat",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Reina del cielo",
+    "slug": "MARIA-_reina-del-cielo-francisco",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Salve, Madre",
+    "slug": "MARIA-_Salve,_Madre",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Salve, Reina de los cielos",
+    "slug": "MARIA-_Salve,_Reina_de_los",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Santa María del Amén",
+    "slug": "MARIA-_santa-maria-del-amen",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Venid y vamos todos",
+    "slug": "MARIA-_venid-y-vamos-todos",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Alma Redemptoris Mater",
+    "slug": "MARÍA-_Alma_Redemptoris_Mater",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Alma Redemptoris Mater (corcheas)",
+    "slug": "María-_Alma_Redemptoris_Mater_(corcheas)",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ave María (Palazón)",
+    "slug": "María-_ave-maria_(Palazon)",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ave María (Re m)",
+    "slug": "MARÍA-_AveMaria_ReM",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ave de Fátima",
+    "slug": "MARÍA-_Ave_de_Fatima",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ave maris stella",
+    "slug": "MARÍA-_Ave_maris_stella",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ave Regina Caelorum",
+    "slug": "MARíA-_Ave_Regina_Caelorum",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ave Regina Caelorum (corcheas)",
+    "slug": "María-_Ave_Regina_Caelorum_(Corcheas)",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cántico de María (Mejía)",
+    "slug": "MARÍA-_Cántico_de_María_Mejía",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Eres más pura",
+    "slug": "María-_eres-mas-pura_(a",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Hija de Sión",
+    "slug": "MARÍA-_Hija_de_Sión",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Hija de Sión (estrofas)",
+    "slug": "MARÍA-_Hija_de_Sión_(estrofas",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Humilde nazarena",
+    "slug": "María-_humilde-nazarena-c-gabarain",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Magnificat",
+    "slug": "MARÍA-_Magnificat",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "María, Madre, en el",
+    "slug": "MARÍA-_María,_Madre,_en_el",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Oh María",
+    "slug": "María-_oh_María",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Regina Caeli",
+    "slug": "MARÍA-_Regina_Caeli",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Regina Caeli (corcheas)",
+    "slug": "MARÍA-_Regina_Caeli_(corcheas)",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ruega por nosotros",
+    "slug": "MARÍA-_Ruega_por_nosotros",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Salve, Mater",
+    "slug": "MARÍA-_Salve,_Mater",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Salve, Señora",
+    "slug": "MARÍA-_Salve,_Señora_-",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Salve regina",
+    "slug": "MARíA-_Salve_regina",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Salve Regina (corcheas)",
+    "slug": "MARÍA-_Salve_Regina_(corcheas)",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Santa María del Camino",
+    "slug": "María-_santa-maria-del-camino",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Stabat mater",
+    "slug": "MARÍA-_Stabat_mater",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ven y reina",
+    "slug": "MARÍA-_Ven_y_reina",
+    "categoria": "maria",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Aleluya Palazón (Misa sinodal)",
+    "slug": "MISA- Aleluya_Palazón_(misa_sinodal)",
+    "categoria": "partesmisa",
+    "momento": "aleluya",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Agnus Dei XVIII",
+    "slug": "MISA-Agnus_Dei_XVIII",
+    "categoria": "partesmisa",
+    "momento": "cordero",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Aleluya Lourdes",
+    "slug": "MISA-Aleluya_Lourdes",
+    "categoria": "partesmisa",
+    "momento": "aleluya",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Gloria de Angelis",
+    "slug": "MISA-Gloria_de_Angelis",
+    "categoria": "partesmisa",
+    "momento": "gloria",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Gloria Palazón (reunidos en su nombre)",
+    "slug": "Misa-Gloria_Palazón",
+    "categoria": "partesmisa",
+    "momento": "gloria",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Agnus Dei Friedens",
+    "slug": "MISA-_Agnus_Dei_Friedens",
+    "categoria": "partesmisa",
+    "momento": "cordero",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Agnus Dei Frisina",
+    "slug": "MISA-_Agnus_Dei_Frisina",
+    "categoria": "partesmisa",
+    "momento": "cordero",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Agnus de angelis",
+    "slug": "MISA-_Agnus_de_angelis",
+    "categoria": "partesmisa",
+    "momento": "cordero",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Aleluya (Frisina)",
+    "slug": "MISA-_Aleluya,_alégrate_llena_de",
+    "categoria": "partesmisa",
+    "momento": "aleluya",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Aleluya, el Señor es nuestro Rey",
+    "slug": "MISA-_Aleluya,_El_Señor_es",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Aleluya (Cerceda)",
+    "slug": "MISA-_Aleluya_(Cerceda)",
+    "categoria": "partesmisa",
+    "momento": "aleluya",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Aleluya Palazón (misa sinodal)",
+    "slug": "MISA-_Aleluya_-_Palazón",
+    "categoria": "partesmisa",
+    "momento": "aleluya",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Aleluya D",
+    "slug": "MISA-_Aleluya_D",
+    "categoria": "partesmisa",
+    "momento": "aleluya",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Aleluya gregoriano mayor",
+    "slug": "MISA-_Aleluya_Greg_mayor",
+    "categoria": "partesmisa",
+    "momento": "aleluya",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Aleluya irlandés",
+    "slug": "MISA-_Aleluya_irlandés",
+    "categoria": "partesmisa",
+    "momento": "aleluya",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Aleluya Misa Gregoriana menor",
+    "slug": "MISA-_Aleluya_Misa_Gregoriana_tono",
+    "categoria": "partesmisa",
+    "momento": "aleluya",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Aleluya Palazón 1",
+    "slug": "MISA-_Aleluya_Palazón_1",
+    "categoria": "partesmisa",
+    "momento": "aleluya",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Aleluya Palazón 2",
+    "slug": "MISA-_Aleluya_Palazón_2",
+    "categoria": "partesmisa",
+    "momento": "aleluya",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Aleluya popular",
+    "slug": "MISA-_Aleluya_popular_ReM",
+    "categoria": "partesmisa",
+    "momento": "aleluya",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Aleluya popular (Taizé)",
+    "slug": "MISA-_Aleluya_popular_Taize",
+    "categoria": "partesmisa",
+    "momento": "aleluya",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Alleluia (Bonifacio)",
+    "slug": "MISA-_Alleluia",
+    "categoria": "partesmisa",
+    "momento": "aleluya",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Anunciamos tu muerte",
+    "slug": "MISA-_Anunciamos_tu_muerte",
+    "categoria": "partesmisa",
+    "momento": "aclamaciones",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cada vez que comemos",
+    "slug": "MISA-_Cada_vez_que_comemos",
+    "categoria": "partesmisa",
+    "momento": "aclamaciones",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cordero de Dios (Alberto)",
+    "slug": "MISA-_cordero-de-dios-alberto",
+    "categoria": "partesmisa",
+    "momento": "cordero",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cordero de Dios (Aragüés)",
+    "slug": "MISA-_cordero-de-dios-aragues",
+    "categoria": "partesmisa",
+    "momento": "cordero",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cordero de Dios (Palazón)",
+    "slug": "MISA-_cordero-de-dios-francisco",
+    "categoria": "partesmisa",
+    "momento": "cordero",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cordero de Dios (Manzano)",
+    "slug": "MISA-_Cordero_de_Dios_(Manzano)",
+    "categoria": "partesmisa",
+    "momento": "cordero",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cordero de Dios (Palazón - Misa sinodal)",
+    "slug": "MISA-_Cordero_de_Dios_(Misa",
+    "categoria": "partesmisa",
+    "momento": "cordero",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cordero de Dios (Palazón - Reunidos en su nombre)",
+    "slug": "MISA-_CORDERO_DE_DIOS_reunidos",
+    "categoria": "partesmisa",
+    "momento": "cordero",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Doxología",
+    "slug": "MISA-_Doxología",
+    "categoria": "partesmisa",
+    "momento": "aclamaciones",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Gloria Palazón (Alrededor de tu mesa)",
+    "slug": "MISA-_Gloria_Palazon",
+    "categoria": "partesmisa",
+    "momento": "gloria",
+    "maxUp": 0,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Kyrie (Saint Paul)",
+    "slug": "MISA-_Kyrie_(Saint_Paul)",
+    "categoria": "partesmisa",
+    "momento": "kyrie",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Kyrie Berthier",
+    "slug": "MISA-_Kyrie_Berthier",
+    "categoria": "partesmisa",
+    "momento": "kyrie",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Kyrie de angelis",
+    "slug": "MISA-_Kyrie_de_angelis",
+    "categoria": "partesmisa",
+    "momento": "kyrie",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Kyrie Frisina",
+    "slug": "MISA-_Kyrie_Frisina",
+    "categoria": "partesmisa",
+    "momento": "kyrie",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Kyrie Messe des Friedens",
+    "slug": "MISA-_Kyrie_Messe_des_Friedens",
+    "categoria": "partesmisa",
+    "momento": "kyrie",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Kyrie Misa gregoriana de",
+    "slug": "MISA-_Kyrie_Misa_gregoriana_de",
+    "categoria": "partesmisa",
+    "momento": "kyrie",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Kyrie Misa gregoriana para",
+    "slug": "MISA-_Kyrie_Misa_gregoriana_para",
+    "categoria": "partesmisa",
+    "momento": "kyrie",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Por tu cruz",
+    "slug": "MISA-_Por_tu_cruz",
+    "categoria": "partesmisa",
+    "momento": "aclamaciones",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Sanctus de Angelis",
+    "slug": "MISA-_Sanctus_de_Angelis",
+    "categoria": "partesmisa",
+    "momento": "santo",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Sanctus Frisina",
+    "slug": "MISA-_Sanctus_Frisina",
+    "categoria": "partesmisa",
+    "momento": "santo",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Sanctus Messe des Friedens",
+    "slug": "MISA-_Sanctus_Messe_des_Friedens",
+    "categoria": "partesmisa",
+    "momento": "santo",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Santo Palazón v2",
+    "slug": "MISA-_santo-francisco-palazon_v2",
+    "categoria": "partesmisa",
+    "momento": "santo",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Santo (Miguel Manzano)",
+    "slug": "MISA-_santo-miguel-manzano",
+    "categoria": "partesmisa",
+    "momento": "santo",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Santo (Misa sinodal)",
+    "slug": "MISA-_Santo_(Misa_Sinodal)",
+    "categoria": "partesmisa",
+    "momento": "santo",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Santo (Aragüés)",
+    "slug": "Misa-_santo_Aragües",
+    "categoria": "partesmisa",
+    "momento": "santo",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Santo Berthier",
+    "slug": "MISA-_Santo_Berthier",
+    "categoria": "partesmisa",
+    "momento": "santo",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Santo de Schubert",
+    "slug": "MISA-_Santo_de_Schubert",
+    "categoria": "partesmisa",
+    "momento": "santo",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Santo Gioristidi",
+    "slug": "MISA-_Santo_Gioristidi",
+    "categoria": "partesmisa",
+    "momento": "santo",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Santo Palazón",
+    "slug": "MISA-_SANTO_Palazón_Re_M",
+    "categoria": "partesmisa",
+    "momento": "santo",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Señor, ten piedad (Manzano)",
+    "slug": "MISA-_senor-ten-piedad-miguel",
+    "categoria": "partesmisa",
+    "momento": "kyrie",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Señor, ten piedad (Palazón - reunidos en su nombre)",
+    "slug": "MISA-_senor-ten-piedad-misa",
+    "categoria": "partesmisa",
+    "momento": "kyrie",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Señor, ten piedad (T. Aragüés)",
+    "slug": "MISA-_senor-ten-piedad-tomas",
+    "categoria": "partesmisa",
+    "momento": "kyrie",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Señor, ten piedad (JC)",
+    "slug": "MISA-_Señor,_ten_piedad_JC",
+    "categoria": "partesmisa",
+    "momento": "kyrie",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Señor, ten piedad (Palazón - misa sinodal)",
+    "slug": "MISA-_Señor_ten_piedad_(sinodo)",
+    "categoria": "partesmisa",
+    "momento": "kyrie",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Sanctus Messe des",
+    "slug": "MISA_-_Sanctus_Messe_des",
+    "categoria": "partesmisa",
+    "momento": "santo",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Sanctus XVIII",
+    "slug": "MISA_Sanctus_XVIII",
+    "categoria": "partesmisa",
+    "momento": "santo",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Sanctus XVIII v2",
+    "slug": "MISA_Sanctus_XVIII_v2",
+    "categoria": "partesmisa",
+    "momento": "santo",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Adeste fideles (villancico)",
+    "slug": "NAV-_Adeste_Fideles_Villancico",
+    "categoria": "navidad",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "En medio del silencio",
+    "slug": "NAV-_En_medio_del_silencio",
+    "categoria": "navidad",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ha nacido el Salvador",
+    "slug": "NAV-_Ha_nacido_el_Salvador",
+    "categoria": "navidad",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Noche de Paz",
+    "slug": "Nav-_Noche_de_Paz",
+    "categoria": "navidad",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "No la debemos dormir",
+    "slug": "NAV-_No_la_debemos_dormir",
+    "categoria": "navidad",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Verbum caro factum est",
+    "slug": "NAV-_verbum-caro-factum-est",
+    "categoria": "navidad",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Es Navidad",
+    "slug": "NAV_-_Es_Navidad",
+    "categoria": "navidad",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Invitatorio de Navidad",
+    "slug": "NAV_-_Invitatorio_de_Navidad",
+    "categoria": "navidad",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Nace el Niño",
+    "slug": "NAV_-_Nace_el_NIño",
+    "categoria": "navidad",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "El Señor es mi luz",
+    "slug": "ORD-_El_Señor_es_miluz",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cantando la alegría",
+    "slug": "ORD-Cantando_la_alegría",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Antes de ser llevado",
+    "slug": "ORD-_Antes_de_ser_llevado",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Banquete de comunión",
+    "slug": "ORD-_Banquete_de_comunión",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Bendito seas, Señor",
+    "slug": "ORD-_BENDITO_SEAS,_SEÑOR",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cantad al Señor (Frisina)",
+    "slug": "ORD-_Cantad_al_Señor_(Frisina)",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cantad a Dios",
+    "slug": "ORD-_Cantad_a_Dios",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Canto de paz",
+    "slug": "ORD-_Canto_de_paz",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Celebra al Señor",
+    "slug": "ORD-_Celebra_al_Señor",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ciudadanos del cielo",
+    "slug": "ORD-_Ciudadanos_del_cielo_(4",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cristo ayer, Cristo hoy",
+    "slug": "ORD-_Cristo_ayer,_Cristo_hoy",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Donde hay caridad",
+    "slug": "ORD-_donde-hay-caridad-joaquin",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "El Señor es mi fuerza",
+    "slug": "ORD-_el-senor-es-mi",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Este pan y vino",
+    "slug": "ORD-_Este_pan_y_vino",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Fiesta del banquete (estrofas)",
+    "slug": "ORD-_Fiesta_del_banquete_(ESTROFAS",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Gracias, Señor",
+    "slug": "ORD-_Gracias,_Señor",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Hambre de Dios",
+    "slug": "ORD-_hambre-de-dios-juan",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Heme aquí (Marco Frisina)",
+    "slug": "ORD-_Heme_aqui-Marco_Frisina",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Hombres nuevos (Juan Antonio)",
+    "slug": "ORD-_Hombres_nuevos-Juan_Antonio",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Id y enseñad",
+    "slug": "ORD-_id-y-ensenad-cesareo",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Misericordias Domini",
+    "slug": "ORD-_misericordias-domini_(añadir_acordes",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Nada te turbe",
+    "slug": "ORD-_Nada_te_turbe",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Nada te turbe (Glosa)",
+    "slug": "ORD-_Nada_te_turbe_(Glosa)",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Non nobis Domine",
+    "slug": "ORD-_Non_nobis_Domine",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Oh buen Jesús",
+    "slug": "ORD-_Oh_buen_Jesús",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Oh luz gozosa",
+    "slug": "ORD-_Oh_luz_gozosa",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Pescador de hombres (órgano)",
+    "slug": "ORD-_Pescador_de_hombres_organ",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Pescador (Matéu)",
+    "slug": "ORD-_Pescador_Matéu(faltan_acordes)",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Señor, yo no soy digno",
+    "slug": "ORD-_Señor,_yo_no_soy",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Señor Tú nos hiciste",
+    "slug": "ORD-_Señor_Tú_nos_hiciste",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Somos un pueblo",
+    "slug": "ORD-_somos-un-pueblo-vicente",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Te ofrecemos Señor",
+    "slug": "ORD-_Te_ofrecemos_Señor",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Tomad, Señor y recibid",
+    "slug": "ORD-_Tomad,_Señor_y_recibid",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Tú eres, Señor, el pan de vida",
+    "slug": "ORD-_Tú_eres,_Señor,_el",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Unidos en caridad",
+    "slug": "ORD-_Unidos_en_caridad",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Un mandamiento nuevo",
+    "slug": "ORD-_Un_mandamiento_nuevo",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Vaso nuevo",
+    "slug": "ORD-_vaso-nuevo-anonimo",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Vienen con alegría",
+    "slug": "ORD-_Vienen_con_alegria_(completar",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "¡Aleluya! Amén",
+    "slug": "ORD-_¡Aleluya!_Amén",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Como el Padre",
+    "slug": "ORD_-_Como_el_Padre",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "El Señor es mi pastor",
+    "slug": "ORD_-_El_Señor_es",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Tu palabra me da vida",
+    "slug": "ORD_-_Tu_palabra_me",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Aclama al Señor",
+    "slug": "PAS-_Aclama_al_Señor(pili)",
+    "categoria": "pascua",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cristo Jesús resucitó",
+    "slug": "PAS-_Cristo_Jesús_resucitó",
+    "categoria": "pascua",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Jubilate Deo omnis terra",
+    "slug": "PAS-_Jubilate_Deo_omnis_terra",
+    "categoria": "pascua",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Resurrección",
+    "slug": "PAS-_Resurrección_(a_los_tres",
+    "categoria": "pascua",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cristo resucitó, aleluya",
+    "slug": "PASC-_cristo-resucito-aleluya",
+    "categoria": "pascua",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "El Señor vive",
+    "slug": "PASC-_El_Señor_vive",
+    "categoria": "pascua",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Este es el día (Salmo 117, Miguel Manzano)",
+    "slug": "PASC-_Este_es_el_dia__-Salmo_117_Miguel_Manzano",
+    "categoria": "pascua",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Quédate junto a nosotros",
+    "slug": "PASC-_Quédate_junto_a_nosotros",
+    "categoria": "pascua",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Resucitó",
+    "slug": "PASC-_Resucitó",
+    "categoria": "pascua",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Señor, Dios nuestro (Salmo)",
+    "slug": "PASC-_Señor,_Dios_nuestro_(Sal",
+    "categoria": "pascua",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Te conocimos al partir",
+    "slug": "PASC-_te-conocimos-al-partir",
+    "categoria": "pascua",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Un cántico nuevo",
+    "slug": "PASC-_un-cantico-nuevo-juan",
+    "categoria": "pascua",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Acuérdate de Jesucristo",
+    "slug": "Pascua-_acuerdate-de-jesucristo_(completar",
+    "categoria": "pascua",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Canta con júbilo (Erdozáin)",
+    "slug": "Pascua-_canta-con-jubilo_erdozáin",
+    "categoria": "pascua",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Este es el día (Sal 117)",
+    "slug": "Pascua-_Este_es_el_día",
+    "categoria": "pascua",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Jesús, nuestra Pascua",
+    "slug": "Pascua-_jesus-nuestra-pascua-j",
+    "categoria": "pascua",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Quédate con nosotros",
+    "slug": "Pasc_-_Quédate_con_nosotros",
+    "categoria": "pascua",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ubi caritas (gregoriana)",
+    "slug": "SS-Ubi_caritas_gregoriana",
+    "categoria": "SS",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cristo por nosotros se hizo obediente",
+    "slug": "SS-_Cristo_por_nosotros_se",
+    "categoria": "SS",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "El Mandato",
+    "slug": "SS-_El_Mandato",
+    "categoria": "SS",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "In manus tuas, Pater",
+    "slug": "SS-_in-manus-tuas-pater",
+    "categoria": "SS",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Nosotros hemos de gloriarnos",
+    "slug": "SS-_Nosotros_hemos_de_gloriarnos",
+    "categoria": "SS",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Pueblo mío",
+    "slug": "SS-_Pueblo_mío",
+    "categoria": "SS",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Sube el Nazareno",
+    "slug": "SS-_sube-el-nazareno",
+    "categoria": "SS",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ubi caritas et amor",
+    "slug": "SS-_ubi-caritas-et-amor",
+    "categoria": "SS",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Quédate y vela",
+    "slug": "SS_-_Quédate_y_vela",
+    "categoria": "SS",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Victoria, Tú reinarás",
+    "slug": "SS_-_Victoria,_Tú_reinarás",
+    "categoria": "SS",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ven, Señor",
+    "slug": "ADV- Ven Señor",
+    "categoria": "adviento",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Alegría de esperar",
+    "slug": "ADV-_alegría_de_esperar",
+    "categoria": "adviento",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Canten los pueblos",
+    "slug": "ADV-_Canten_los_pueblos",
+    "categoria": "adviento",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cielos lloved",
+    "slug": "ADV-_Cielos_lloved",
+    "categoria": "adviento",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Corona de Adviento",
+    "slug": "ADV-_Corona_de_Adviento",
+    "categoria": "adviento",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Dios es nuestra esperanza",
+    "slug": "ADV-_Dios_es_nuestra_esperanza",
+    "categoria": "adviento",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Nueva aurora (Fa M)",
+    "slug": "ADV-_Nueva_aurora_Fa_M",
+    "categoria": "adviento",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Preparad el camino al Señor",
+    "slug": "ADV-_Preparad_el_camino_al",
+    "categoria": "adviento",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Pueblo de hermanos (SCM 254)",
+    "slug": "ADV-_Pueblo_de_hermanos_SCM254",
+    "categoria": "adviento",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Que los cielos rocíen al Justo",
+    "slug": "ADV-_Que_los_cielos_rocíen",
+    "categoria": "adviento",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Tiempo de esperanza",
+    "slug": "ADV-_tiempo_de_esperanza",
+    "categoria": "adviento",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Vamos a preparar el camino",
+    "slug": "ADV-_vamos_a_preparar_el",
+    "categoria": "adviento",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ven, Señor, líbranos",
+    "slug": "ADV-_Ven,_Señor,_líbranos",
+    "categoria": "adviento",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Veni, veni, Emmanuel",
+    "slug": "ADV-_veni_veni_emmanuel",
+    "categoria": "adviento",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ven, Salvador (Adviento, Re m)",
+    "slug": "ADV-_Ven_Salvador_(adviento)_Re_m",
+    "categoria": "adviento",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Sobre ti, Jerusalén",
+    "slug": "ADV_SobreTiJerusalen",
+    "categoria": "adviento",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Donde la caridad",
+    "slug": "DIV2 -_Donde_la_caridad",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "En todo amar y servir",
+    "slug": "DIV2- _En_todo_amar_y",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Corazón de Cristo",
+    "slug": "DIV2-_Corazón_de_Cristo",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Pan de vida eterna",
+    "slug": "DIV2-_pan_de_vida_eterna",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Viniste al mundo",
+    "slug": "DIV2-_Viniste_al_mundo",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "De noche iremos",
+    "slug": "DIV_de-noche-iremos",
+    "categoria": "diversos",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Éste es el día (LH)",
+    "slug": "LH8_-_Éste_es_eldia",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Anunciaremos tu reino, Señor (bis)",
+    "slug": "ORD-COM anunciaremos-tu-reino-senor (bis)",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Acerquémonos todos al altar",
+    "slug": "ORD-COM _acerquemonos-todos-al-altar",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Al atardecer de la vida",
+    "slug": "ORD-COM _al-atardecer-de-la",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Anima Christi (voz y órgano)",
+    "slug": "ORD-COM _Anima_Christi_voz_y_organo",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Anunciaremos tu reino, Señor",
+    "slug": "ORD-COM _anunciaremos-tu-reino-senor",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Cerca de ti, Señor",
+    "slug": "ORD-COM _Cerca_de_ti,_Señor",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Comiendo del mismo pan",
+    "slug": "ORD-COM _comiendo-del-mismo-pan",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Divino manjar",
+    "slug": "ORD-COM _divino-manjar",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "El pan que compartimos",
+    "slug": "ORD-COM _El_pan_que_compartimos",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Gustad y ved (oficial)",
+    "slug": "ORD-COm _gustad_y_ved_oficial",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Junto a Ti al",
+    "slug": "ORD-COM _Junto_a_Ti_al",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Quién nos separará",
+    "slug": "ORD-COM _Quién_nos_separará",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Seréis mis testigos",
+    "slug": "ORD-COM _Seréis_mis_testigos",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Si me falta el amor",
+    "slug": "ORD-COM _Si_me_falta_el",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Tarde te amé",
+    "slug": "ORD-COM _Tarde_te_amé",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Te seguiré (Do M)",
+    "slug": "ORD-COM _Te_seguiré_Do_M",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Tú nos das la vida",
+    "slug": "ORD-COM _Tú_nos_das_la",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Una espiga",
+    "slug": "ORD-COM _Una_espiga_(quitar_letra",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Unidos en Ti",
+    "slug": "ORD-COM _Unidos_en_Ti",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Véante mis ojos",
+    "slug": "ORD-COM_Véante_mis_ojos",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Yo soy el camino firme",
+    "slug": "ORD-COM_yo-soy-el-camino",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Yo os elegí",
+    "slug": "ORD-COM_Yo_os_elegí­",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Juntos como hermanos",
+    "slug": "ORD-ENTRADA _juntos-como-hermanos",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Entre tus manos (Ray)",
+    "slug": "ORD-Of _entre-tus-manos-ray",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Toma, Señor, mi libertad",
+    "slug": "ORD-OF _Toma,_Señor,_mi_libertad",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Ven, y sígueme",
+    "slug": "ORD-_Ven_y_sígueme",
+    "categoria": "ordinario",
+    "momento": "entrada",
+    "maxUp": 3,
+    "maxDown": 5,
+    "estrofa": 0
+  },
+  {
+    "name": "Rorate Coeli",
+    "slug": "ADV- Rorate Coeli (v final)",
+    "categoria": "adviento",
+    "momento": "entrada",
+    "maxUp": 0,
+    "maxDown": 0,
+    "estrofa": 0
+  },
+  {
+    "name": "Magnificat II",
+    "slug": "LH20-_Magnificat_II",
+    "categoria": "LH",
+    "momento": "himnoLH",
+    "maxUp": 0,
+    "maxDown": 0,
+    "estrofa": 0
+  },
+  {
+    "name": "Gloria (Lecot)",
+    "slug": "MISA-_Gloria_(Lecot)",
+    "categoria": "partesmisa",
+    "momento": "gloria",
+    "maxUp": 0,
+    "maxDown": 0,
+    "estrofa": 0
+  },
+  {
+    "name": "Hosanna al Hijo de David",
+    "slug": "SS-Hosanna_al_Hijo_de_David",
+    "categoria": "SS",
+    "momento": "entrada",
+    "maxUp": 0,
+    "maxDown": 0,
+    "estrofa": 0
+  }
+]
+
+      
   

@@ -1,20 +1,20 @@
-const CACHE_NAME = "partitura-pwa-v12";
+const CACHE_NAME = "partitura-pwa-v15";
 
 const STATIC_FILES = [
   "/",
-  "/libro-partiturasSCM/index.html",
-  "/libro-partiturasSCM/partitura.html",
-  "/libro-partiturasSCM/manifest.json",
-  "/libro-partiturasSCM/partituras.json",
-  "/libro-partiturasSCM/favicon.ico",
-  "/libro-partiturasSCM/icons/icon-192.png",
-  "/libro-partiturasSCM/icons/icon-512.png",
+  "/index.html",
+  "/partitura.html",
+  "/manifest.json",
+  "/partituras.json",
+  "/favicon.ico",
+  "/icons/icon-192.png",
+  "/icons/icon-512.png",
   "https://cdn.jsdelivr.net/npm/opensheetmusicdisplay@1.8.6/build/opensheetmusicdisplay.min.js"
 ];
 
 // Obtener TODAS las partituras desde partituras.json
 async function getAllScores() {
-  const res = await fetch("/libro-partiturasSCM/partituras.json");
+  const res = await fetch("/partituras.json");
   const list = await res.json();
   const files = [];
 
@@ -22,7 +22,7 @@ async function getAllScores() {
     const slug = p.slug;
 
     // original
-    files.push(`/scores/${slug}.musicxml`);
+    files.push(`/scores/${slug}/0.musicxml`);
 
     // transpuestas
     for (let i = 1; i <= p.maxUp; i++) {
@@ -62,8 +62,3 @@ self.addEventListener("fetch", event => {
     caches.match(event.request).then(resp => resp || fetch(event.request))
   );
 });
-
-
-
-
-
